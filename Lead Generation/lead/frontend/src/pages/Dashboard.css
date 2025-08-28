@@ -1,0 +1,26 @@
+/* src/pages/Dashboard.css */
+
+.dashboard {
+    margin: 20px;
+  }
+  
+  .leads-table {
+    width: 100%;
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 20px;
+  }
+  
+  .leads-table th, .leads-table td {
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .leads-table th {
+    background-color: #f2f2f2; /* Light grey background for header */
+  }
+  
+  .leads-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping */
+  }
+  

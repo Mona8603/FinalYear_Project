@@ -1,0 +1,36 @@
+/* src/components/LandingPage.css */
+
+.landing-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /* Width of the search box */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px; /* Space between input and button */
+    border: none; /* No border */
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
